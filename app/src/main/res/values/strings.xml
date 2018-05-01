@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+
+
+    <string name="default_value">John Doe</string>
+
+
+    <string-array name="lights">
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+        <item>FOUR</item>
+        <item>FIVE</item>
+    </string-array>
+
+
+    <string-array name="fans">
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+        <item>FOUR</item>
+        <item>FIVE</item>
+    </string-array>
+
+    <string-array name="lists">
+        <item>ONE</item>
+        <item>TWO</item>
+        <item>THREE</item>
+        <item>FOUR</item>
+        <item>FIVE</item>
+    </string-array>
+
+    <string-array name="lValuesLights">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+    <string-array name="lValuesFans">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="default_light">1</string>
+    <string name="default_fans">2</string>
+
+
+
+
+
+
+    <string name="red_color_colorPrimary">#F44336</string>
+    <string name="red_color_colorPrimaryDark">#D32F2F</string>
+
+    <string-array name="lValuesPrimary">
+        <item>@string/red_color_colorPrimary</item>
+        <item>#4CAF50</item>
+        <item>#2196F3</item>
+    </string-array>
+
+
+    <string-array name="lValuesPrimaryDark">
+        <item>@string/red_color_colorPrimaryDark</item>
+        <item>#388E3C</item>
+        <item>#1976D2</item>
+    </string-array>
+
+
+</resources>
