@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -26,21 +27,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <EditText
-                android:hint="Enter IP Address"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
 
             <TextView
-                android:text=""
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:id="@+id/mainscreen_text_view" />
-
-
-            <TextView
-                android:text="Button Panel"
+                android:text="Light Panel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -49,6 +39,13 @@
                 android:id="@+id/light_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:text="1"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
 
                 <Switch
                     android:padding="16dp"
@@ -59,8 +56,15 @@
                 <SeekBar
                     android:id="@+id/light_seek1"
                     android:padding="16dp"
-                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/light_c1"
+                    android:background="@drawable/ic_cancel_black_24dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
 
             </LinearLayout>
 
@@ -80,8 +84,15 @@
                 <SeekBar
                     android:id="@+id/light_seek2"
                     android:padding="16dp"
-                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/light_c2"
+                    android:background="@drawable/ic_cancel_black_24dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
 
             </LinearLayout>
 
@@ -100,8 +111,15 @@
                 <SeekBar
                     android:id="@+id/light_seek3"
                     android:padding="16dp"
-                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/light_c3"
+                    android:background="@drawable/ic_cancel_black_24dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
 
             </LinearLayout>
 
@@ -120,8 +138,15 @@
                 <SeekBar
                     android:id="@+id/light_seek4"
                     android:padding="16dp"
-                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/light_c4"
+                    android:background="@drawable/ic_cancel_black_24dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
 
             </LinearLayout>
 
@@ -141,8 +166,17 @@
                 <SeekBar
                     android:id="@+id/light_seek5"
                     android:padding="16dp"
-                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/light_c5"
+                    android:background="@drawable/ic_cancel_black_24dp"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
+
+
 
             </LinearLayout>
 

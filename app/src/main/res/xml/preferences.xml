@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <EditTextPreference
-        android:title="Enter name"
-        android:summary="Default Summary"
-        android:key="pref_key_edit_text"
-        android:defaultValue="@string/default_value"/>
 
 
     <ListPreference
-        android:defaultValue="@string/red_color_colorPrimary"
+        android:defaultValue="@string/default_light"
         android:entries="@array/lights"
         android:entryValues="@array/lValuesLights"
         android:title="Select number of lights"
@@ -20,26 +15,11 @@
         android:key="pref_key_fans"
         android:title="Select number of fans"
         android:summary="Number of fans in your home"
-        android:defaultValue="@string/red_color_colorPrimaryDark"
+        android:defaultValue="@string/default_fans"
         android:entries="@array/fans"
         android:entryValues="@array/lValuesFans"/>
 
 
-    <ListPreference
-        android:defaultValue="@string/red_color_colorPrimary"
-        android:entries="@array/lists"
-        android:entryValues="@array/lValuesPrimary"
-        android:title="Select Color Primary"
-        android:summary="Color of the action bar"
-        android:key="pref_key_list"/>
-
-    <ListPreference
-        android:key="pref_key_list_2"
-        android:title="Select Color Primary Dark"
-        android:summary="Color of the status bar"
-        android:defaultValue="@string/red_color_colorPrimaryDark"
-        android:entries="@array/lists"
-        android:entryValues="@array/lValuesPrimaryDark"/>
 
 
 </PreferenceScreen>
